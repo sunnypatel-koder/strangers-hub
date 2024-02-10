@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ userInfo }) => {
   return (
     <>
-      <div className="inline-flex rounded-lg bg-white border min-w-[430px] shadow-sm border-gray-200 p-2 h-[180px] ">
+      <div className="inline-flex rounded-lg bg-white border min-w-[430px] w-[450px] shadow-sm border-gray-200 p-2 h-[180px] ">
         {/* first half */}
         <div className="flex flex-col gap-1 justify-center min-w-36 max-w-xs border-r border-gray-200 pt-3 pr-2">
           <img

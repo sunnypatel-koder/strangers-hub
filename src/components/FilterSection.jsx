@@ -24,7 +24,15 @@ const FilterSection = () => {
         </svg>
       </summary> */}
 
-      <form action="" class="flex border-t border-gray-200 lg:border-t-0">
+      <form
+        action=""
+        class="relative flex border-t border-gray-200 lg:border-t-0"
+      >
+        <div className="absolute flex bg-transparent  w-full">
+          <p className="text-right pr-[3.3rem] text-white bg-red-600 text-xs translate-x-12 translate-y-[0px] rotate-45 w-full ml-20">
+            Beta
+          </p>
+        </div>
         <fieldset class="w-full">
           <legend class="block w-full bg-gray-50 px-5 py-3 text-xs font-medium">
             Filters
